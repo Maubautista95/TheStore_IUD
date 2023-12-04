@@ -1,0 +1,144 @@
+body{
+    font-family: 'Montserrat', sans-serif;
+    color: #56585a;
+    background-color: #ecf0f1;
+   
+}
+
+.barra-navegacion{
+    display: flex;    
+    justify-content: space-between;
+    padding: 2rem 80px;
+    background-color: white;
+    align-items: center;
+    /*#eaecee*/
+    box-shadow: 7px 2px 10px #abaeb4;
+
+}
+
+.barra-navegacion ul{
+    display: flex;
+    gap: 12px; /*Espaciado entre los flex items*/
+    list-style: none; /*Quitamos los puntos de la lista*/
+
+}
+
+.barra-navegacion a{
+    color: #abaeb4;
+    font-weight: 800;
+    text-decoration: none;
+}
+/*Sección de productos*/
+
+.productos{
+    margin: 30px 0.5vw 5px 0.5vw;
+    display: flex;
+    justify-content: space-around;
+    gap: 1vw;
+    align-items: flex-end;
+    
+     
+
+}
+
+.productos-box{
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 10px;
+    width: 23.65vw;
+    padding-bottom: 1rem;
+    box-shadow: 3px 2px 4px grey;
+    align-items: center;
+    height: 420px;
+    background-color: white;
+    
+}
+
+
+.productos-box img{
+    width: 23.65vw;
+    height: 240px;
+    max-height: 240px;
+}
+
+.productos-info{
+    width: 20vw;
+}
+
+.productos-info p{
+    font-size: 1.20rem;
+    margin-bottom: 2rem;
+    text-align: center;
+    font-weight: 800;      
+}
+
+.productos-info span{
+    
+    text-align: left;
+    font-size: 1.1rem;
+}
+
+.productos-box button{
+
+    background-color: #de1720;
+    color: white;
+    width: 20vw;
+    border-color: transparent;
+    border-radius: 12px;
+    padding: 15px;
+
+}
+
+/*Formulario new product*/
+
+.formulario-container{
+    display: flex;
+    justify-content: center;
+    margin-top: 27px;
+}
+
+.formulario{
+    text-align: center;
+    width: 31vw;
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    padding: 4rem 3rem;
+    gap: 1.5rem;
+    box-shadow: 2px 2px 6px darkgrey;
+}
+
+.formulario-titulo{
+    font-size: 1.5rem;
+    color: #de1720;
+    text-align: left;
+    margin: 16px 0;
+    font-weight: 700;
+}
+
+.formulario label{
+    text-align: left;
+}
+
+.formulario input{
+    padding: 0.75rem;
+}
+
+.formulario button{
+    color: white;
+    background-color: #de1720;
+    padding: 0.95rem;
+    border-radius: 6px;
+    border-color: transparent;
+    font-size: 1rem;
+    transition-duration: 0.35s;
+}
+
+.formulario button:hover{
+
+    background-color: #727070;
+
+}
+

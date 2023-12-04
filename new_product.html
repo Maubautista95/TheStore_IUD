@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="CSS/reset.css">
+    <link rel="stylesheet" href="CSS/styles.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+    <title>The Store (Actividad 3)</title>
+
+</head>
+
+<body>
+    <div class="barra-navegacion">
+        <div class="logo">
+            <span><a href="index.html"><img src="/Imagenes/the_store.png" width="146" height="62" /></span>
+        </div>
+        <nav class="navegacion">
+            <ul>
+                <li><a href="index.html">Products</a></li>
+                <li><a href="car.html">Car</a></li>
+                <li><a href="login.html">Login</a></li>
+                <li><a href="new_product.html">New Product</a></li>
+            </ul>
+        </nav>
+    </div>
+
+    <div class="formulario-container">
+        <form class="formulario" data-att-formulario>
+            <div class="formulario-titulo">
+                <p>New product</p>
+            </div>
+            <label for="nombre-producto">Nombre:</label>
+            <input name="nombre" id="nombre-producto" data-att-nombreFormulario>
+            <div id="mensaje-nombre"></div>
+            <label for="precio" >Price:</label>
+            <input name="precio"id="precio" type="text" pattern="[0-9]+" title=" Por favor, introduce sólo números." data-att-precio>
+            <div id="mensaje-precio"></div>
+            <label for="inventory">Inventory:</label>
+            <input name="inventory" id="inventory" pattern="[0-9]+" title=" Por favor, introduce sólo números." data-att-inventory>
+            <div id="mensaje-inventario"></div>
+            <button type="submit">Create Product:</button>
+        </form>
+    </div>
+
+</body>
+<script src="Script.js"></script>
+
+</html>
