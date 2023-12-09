@@ -41,7 +41,7 @@ products.forEach((elemento) =>{
     <td>${elemento.name}</td>
     <td>$${elemento.price}</td>
     <td>${elemento.quantity}</td>
-    <td>${Number(elemento.price)*Number(elemento.quantity)}</td>
+    <td>$${Number(elemento.price)*Number(elemento.quantity)}</td>
     </tr>
         
     `
