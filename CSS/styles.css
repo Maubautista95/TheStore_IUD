@@ -147,7 +147,7 @@ body{
 .div-cart{
     box-shadow: 2px 2px 6px darkgrey;
     background-color: white;
-    width: 33vw;
+    width: 600px;
     margin: 40px auto;
     padding: 55px;
 }
